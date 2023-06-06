@@ -4,34 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Feuilleter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="website icon" type="png" href="img/F.png">
 </head>
 <body>
-    <div class="container">
-
-        <div class="coin" id="coin">
-            <div class="heads">
-                <img src="orel.png">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-menu">
+                    <ul>
+                        <li><a href="#" class="active-a">Home</a></li>
+                        <li><a href="#body">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#creations">My creations</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="header-information" id="about">
+                   <img src="img/logo.png" alt="" class="logotype">
+                    <p style="font-size: 20px; margin-left: 0;">Fozila<br>Kurbanova</p>
+                    <p id="lang">RU <b>| ENG</b></p>
+                </div>
+                <div class="header-photo">
+                    <div class="img-bx">
+                        <img src="img/bashara.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="tails">
-                <img
-                    src="reshka.png">
-            </div>
         </div>
-        <div class="stats">
-            <p id="heads-count">Oryol: 0</p>
-            <p id="tails-count">Reshka: 0</p>
-        </div>
-        <div class="buttons">
-            <button id="reset-button">
-                Reset
-            </button>
-            <button id="flip-button">
-                Flip Coin
-            </button>
-        </div>
+    </header>
+    <div class="body" id="body">
+        <h1 class="title">About me</h1><br>
+        <p>Hi, I'm Fozila – Fashion designer from Tashkent.<br>
+            I'm interested in design and everything connected with it.
+        </p><br>
+        <p>
+            I'm studying at Mirzo Ulugbek school<br>
+            from 2022 year.
+        </p><br>
+        <p>
+            Ready to implement excellent projects<br>
+             with wonderful people.
+        </p><br>
     </div>
-    <script src="script.js"></script>
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="text">
+                <h1 class="title">Skills</h1>
+            </div>
+            <div class="cards">
+                <div class="card1" id="card">
+                    <img src="img/skill1.png" class="logo">
+                    <p>Crocheting</p>
+                    <div class="star-rat">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                    </div>
+                </div>
+                <div class="card2" id="card">
+                    <img src="img/skill2.jpg" class="logo">
+                    <p>Knitting</p>
+                    <div class="star-rat">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Wstar.png" alt="">
+                        <img src="img/Wstar.png" alt="">
+                        <img src="img/Wstar.png" alt="">
+                    </div>
+                </div>
+                <div class="card3" id="card">
+                    <img src="img/skill3.png" class="logo">
+                    <p>Sewing</p>
+                    <div class="star-rat">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Star.png" alt="">
+                        <img src="img/Wstar.png" alt="">
+                        <img src="img/Wstar.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="creations">
+        <div class="container">
+            <h1 class="title">My creations</h1>
+            <div class="photos">
+                <div class="photo">
+                    <img src="img/first.png" alt="">
+                    <p>Wednesday doll</p>
+                </div>
+                <div class="photo">
+                    <img src="img/second.png" alt="">
+                    <p>Heart gloves & bracelet</p>
+                </div>
+                <div class="photo">
+                    <img src="img/third.png" alt="">
+                    <p>Chekered bag</p>
+                </div>
+                <div class="photo">
+                    <img src="img/fourth.png" alt="">
+                    <p>Star bag</p>
+                </div>
+                <div class="photo">
+                    <img src="img/fifth.png" alt="">
+                    <p>Sewn bags</p>
+                </div>
+                <div class="photo">
+                    <img src="img/sixth.png" alt="">
+                    <p>Toys</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="footer-top">
+            <h1 class="title">Contacts</h1>
+            <p>Want to know more or just chat?<br>You are welcome!</p>
+            <a href="https://t.me/kuuuure">Send message</a>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100057055200764"><img src="img/facebook-svgrepo-com.svg"></a>
+                <a target="_blank" href="https://www.instagram.com/_foiez_/"><img src="img/instagram-svgrepo-com.svg"></a>
+                <a target="_blank" href="https://t.me/kuuuure"><img src="img/telegram-plane-svgrepo-com.svg"></a>
+                <a target="_blank" href="mailto:fozilaqurbonova@gmail.com"><img src="img/gmail-svgrepo-com.svg" class="ling"></a>
+            </div>
+        </div>
+        <div class="footer-bottom-p">
+            <p>Contact me on<br>Facebook, Instagram, Telegram, Gmail</p>
+        </div>
+    </footer>
 </body>
 </html>
